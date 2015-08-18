@@ -5,9 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    
+    
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 	<title>Danny Fann Website</title>
+
+
+	<!-- Basic stylesheet -->
+	<link rel="stylesheet" href="../owl-carousel/owl-carousel/owl.carousel.css">
+	 
+	 <!-- Default Theme -->
+	<link rel="stylesheet" href="../owl-carousel/owl-carousel/owl.theme.css">
+
+	<!--Bottom Scripts -->
+	
+	 
 </head>
 <body>
 	<div class="container">
@@ -35,25 +50,68 @@
 				<div id="projects">
 					<h2>Projects </br><small>A couple of projects I've worked on!</small></h2>
 					
-					<div class="row" id="project-list">
-						<div class="col-lg-4">
-							<h3>Connect-K</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos qui, corporis nostrum! Ea natus consequatur, illo ullam laudantium! Iure perferendis, sed harum quidem unde? Ratione veniam ipsa, obcaecati fugiat quis.</p>
+					<div class="row" id="project-list-1">
+						<div class="col-lg-6">
+							<div class="thumbnail" id="connect-k-icon">
+								<a href="https://github.com/dkfann/ConnectK-AI" class="thumbnail">
+									<img src="../images/brain-icon-final-70o.png" alt="">
+								</a>	
+							</div>
+							<h3>Connect-K AI</h3>
+							<p>An AI for Connect-K that uses Iterative Deepening Search (IDS) to traverse through possible game states in order to make the best moves. These games states are analyzed via heuristics that compute the value of a given move by checking piece location, blocking, and win condition approximations.</p>
 						</div>
 
-						<div class="col-lg-4">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos qui, corporis nostrum! Ea natus consequatur, illo ullam laudantium! Iure perferendis, sed harum quidem unde? Ratione veniam ipsa, obcaecati fugiat quis.</p>
-						</div>
-
-						<div class="col-lg-4">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos qui, corporis nostrum! Ea natus consequatur, illo ullam laudantium! Iure perferendis, sed harum quidem unde? Ratione veniam ipsa, obcaecati fugiat quis.</p>
+						<div class="col-lg-6">
+							<div class="thumbnail" id="rfid-icon">
+								<a href="https://github.com/dkfann/RFID-Reader" class="thumbnail">
+									<img src="../images/RFID-mono-icon.png" alt="">
+								</a>	
+							</div>
+							<h3>RFID Electric Strike Lock</h3>
+							<!-- <p>An RFID reader that reads in a keycard on UART, checks its unique serial idenitification code, and opens an electric strike lock through a relay. The RFID chip was connected to an ATmega32 microprocessor.</p> -->
+							<p>An RFID lock system created by connecting an ATmega32 microprocessor with an RFID chip. The RFID chip reads in a keycard on UART, sends the unique serial identification code to the microprocessor, then opens the lock if the keycard's ID is accepted.</p>
 						</div>
 					</div>
-					
+
+					<div class="row" id="project-list-2">
+						<div class="col-lg-6">
+							<div class="thumbnail" id="sdl-icon">
+								<a href="https://github.com/dkfann/ICS-161-Engine" class="thumbnail">
+									<img src="../images/SDL-game-icon.png" alt="">
+								</a>	
+							</div>
+							<h3>SDL Game Engine</h3>
+							<p>Collaborated with a team to create a working SDL-based game engine. Created the physics and collision detection portions of the engine and implemented basic game mechanics for engine demonstration purposes.</p>
+						</div>
+
+						<div class="col-lg-6">
+							<div class="thumbnail" id="3d-icon">
+								<a href="https://github.com/dkfann/3D-Reconstruct" class="thumbnail">
+									<img src="../images/3d-design-icon.png" alt="">
+								</a>	
+							</div>
+							<h3>3D Mesh Reconstruction With Structured Lighting</h3>
+							<p>Recreated a 3D model of a mannequin from structured lighting image scans of the mannequin. The images were placed in a stack and the binary gray code values were collapsed into an array of decoded decimal values per pixel. This array was then used to reconstruct a point cloud, which was converted into a mesh and smoothed with Poisson reconstruction. </p>
+						</div>
+					</div>
 
 				</div>
+			</div>
 
-				
+			<div class="page-header">
+				<div id="photo">
+					<h2>Photography <br><small>A small gallery of my photography.</small></h2>
+					
+					<div id="owl-demo">
+						<div class="item"><img src="../photos/photo1.jpg" alt=""></div>
+						<div class="item"><img src="../photos/photo2.jpg" alt=""></div>
+						<div class="item"><img src="../photos/photo3.jpg" alt=""></div>
+						<div class="item"><img src="../photos/photo4.jpg" alt=""></div>
+						<div class="item"><img src="../photos/photo5.jpg" alt=""></div>
+						<div class="item"><img src="../photos/photo6.jpg" alt=""></div>
+					</div>
+
+				</div>
 
 			</div>
 		</section>
@@ -66,8 +124,26 @@
 
 		<div class="col-lg-4"></div>
 	</div>
+	
+	<!-- Include js plugin -->
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	
+	<script src="../js/scripts.js"></script>
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script src="../owl-carousel/owl-carousel/owl.carousel.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+		 
+		  $("#owl-demo").owlCarousel();
+		 
+		});
+	</script>
+	
 </body>
 </html>

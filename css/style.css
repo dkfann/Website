@@ -8,6 +8,7 @@
 	background: none, url("../images/DF-Gotham-Logo.png") center center no-repeat;
 	position: relative;
 	left: 35px;
+	top: 25px;
 }
 
 #contact-menu{
@@ -23,6 +24,31 @@
 	padding-top: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+#connect-k-icon, .thumbnail{
+	border-style: none;
+	padding: 0;
+}
+
+#connect-k-icon img, .thumbnail{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#project-list-1{
+	padding-bottom: 50px;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 
