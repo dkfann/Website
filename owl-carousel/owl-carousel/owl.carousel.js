@@ -20,10 +20,6 @@ if (typeof Object.create !== "function") {
     };
 }
 
-function test2()
-{
-    alert("Test!!!!!!");
-}
 (function ($, window, document) {
 
     var Carousel = {

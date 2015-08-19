@@ -1,20 +1,35 @@
 $(document).ready(function() {
-  
-  alert("hello");
-  $("#owl-demo").owlCarousel();
-  $("#owl-demo").owlCarousel({
- 
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
- 
-      items : 4,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3]
+
+  $(".slick-carousel").slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true,
+      autoplay: true
  
   });
- 
+
 });
 
-function test()
-{
-	alert("Test!");
-}
+
+// $(document).ready(function() {
+ 
+//   $("#owl-demo").owlCarousel({
+//     autoPlay : 3000,
+//     stopOnHover : false,
+//     navigation:true,
+//     paginationSpeed : 1000,
+//     goToFirstSpeed : 2000,
+//     singleItem : true,
+//     autoHeight : true,
+//     transitionStyle:"fade"
+//   });
+ 
+// });
+
+
+
+
+
+

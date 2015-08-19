@@ -41,15 +41,17 @@
 	padding-bottom: 50px;
 }
 
-#owl-demo .item{
-  margin: 3px;
+#photo{
+	margin: 0 auto;
+}
+.slick-carousel{
+	display: block;
+	margin: 0 auto;
 }
 
-#owl-demo .item img{
-  display: block;
-  width: 100%;
-  height: auto;
+.slick-carousel img{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
 }
-
-
 
