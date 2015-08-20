@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:400,700,500);
+@import url(http://fonts.googleapis.com/css?family=Karla:400,700);
 
 #logo{
 	float: left;
@@ -50,8 +52,25 @@
 }
 
 .slick-carousel img{
-	width: 1000px;
+	width: 500px;
 	height: auto;
 	margin: 0 auto;
 }
 
+h2{
+	font-family: "Karla", sans-serif;
+	font-weight: 700;
+	font-size: 300%;
+}
+
+h3{
+	font-family: "Karla", sans-serif;
+	font-weight: 700;
+	font-size: 225%;
+}
+
+p{
+	font-family: "Karla", sans-serif;
+	font-weight: 400;
+	font-size: 150%;
+}
