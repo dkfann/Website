@@ -10,6 +10,8 @@ $(document).ready(function() {
  
   });
 
+  $('#contact-menu').localScroll();
+  
 });
 
 
